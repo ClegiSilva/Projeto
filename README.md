@@ -18,8 +18,7 @@ Participação em evento exclusivo e gratuito, promovido pela Rocketseat para en
 <br>
 
 <p align="center">
-  <img alt="Projeto DevLinks" src=".github/devlinks.png
-  " width="100%">
+  <img alt="Projeto DevLinks" src=".github/devlinks.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
