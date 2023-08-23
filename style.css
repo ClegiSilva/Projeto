@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root {
+ :root {
     --text-color: white;
     --bg-url: url(./assets/bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
@@ -26,6 +26,7 @@
 
 body {
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vw;
 }
 
 body * {
@@ -159,10 +160,11 @@ footer {
     font-size: 14px;
 }
 
-
-/* links sociais            
-<a href="https://github.com/ClegiSilva" target="_blank"> 
-<a href="https://instagram.com/clegi.s" target="_blank">
-<a href="https://linkedin.com/in/clegineide-silva" target="_blank">
-Foto da Clegineide M. da Silva sorrindo, usando camisa branca com preta, óculos e fundo azul
-*/
+@media(min-width: 700px) {
+     :root {
+        --bg-url: url(./assets-bg-desktop.jpg);
+    }
+    .ligth {
+        --bg-url: url(./assets/bg-desktop-ligth.jpg);
+    }
+}
